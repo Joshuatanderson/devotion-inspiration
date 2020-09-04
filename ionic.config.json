@@ -1,0 +1,7 @@
+{
+  "name": "devotionInspiration",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
