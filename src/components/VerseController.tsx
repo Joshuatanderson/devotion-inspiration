@@ -1,5 +1,5 @@
 import React from "react";
-import { config } from "../config";
+import { config } from "../.env";
 import VerseView from "./VerseView";
 import axios from "axios";
 const endpoint = "https://api.scripture.api.bible/v1/"
