@@ -12,7 +12,7 @@ import {
 } from "@ionic/react";
 import React from "react";
 import "./Home.css";
-import VerseController from "../components/VerseController";
+import BiblesController from "../components/BiblesController";
 
 const Home: React.FC = () => {
 	return (
@@ -28,7 +28,7 @@ const Home: React.FC = () => {
 					<IonButton>Generate</IonButton>
 				</IonCardHeader>
 				<IonCardContent>
-					<VerseController />
+					<BiblesController />
 				</IonCardContent>
 			</IonCard>
 		</IonPage>
