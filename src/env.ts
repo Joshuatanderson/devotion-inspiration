@@ -1,3 +1,3 @@
 export const config = {
-	BIBLE_SECRET: "4072689f3d8986b77550989a16d12b01"
+	BIBLE_SECRET: "3709c5ad393e30afb293348b5ba1417f"
 }

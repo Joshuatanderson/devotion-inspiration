@@ -2,7 +2,6 @@
 
 #config
 .env
-config.ts
 
 # dependencies
 /node_modules

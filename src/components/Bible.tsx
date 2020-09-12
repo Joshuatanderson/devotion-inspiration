@@ -1,8 +1,12 @@
 import React from "react";
-import { IonCard, IonCardTitle } from "@ionic/react";
+import { IonCard, IonCardHeader, IonCardTitle } from "@ionic/react";
 
 const Bible = ({ data }: any) => {
-return <IonCard><IonCardTitle>Bible Version: {data.name}</IonCardTitle></IonCard>;
+  return <IonCard>
+    <IonCardHeader>
+      <IonCardTitle>{data.name}</IonCardTitle>
+    </IonCardHeader>
+  </IonCard>;
 };
 
 export default Bible;
