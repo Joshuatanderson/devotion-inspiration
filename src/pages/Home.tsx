@@ -22,12 +22,6 @@ const Home: React.FC = () => {
             <IonTitle>Home</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <IonCard>
-          <IonCardHeader>
-            <IonCardTitle>Passage suggestion</IonCardTitle>
-            <IonButton>Generate</IonButton>
-          </IonCardHeader>
-        </IonCard>
         <BiblesController />
     </IonContent>
   );
