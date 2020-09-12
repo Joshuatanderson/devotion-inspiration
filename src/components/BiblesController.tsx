@@ -11,6 +11,10 @@ import { bible } from "../types/bible";
 import { chapter } from "../types/chapter";
 import Chapter from "./Chapter";
 
+// TODO: stop from displaying intro
+// TODO: allow user to change version
+// TODO: make formatting less ugly
+
 const BiblesController = () => {
 	const [bibleData, setBibleData] = useState<bibles | null>(null);
 	const [books, setBooks] = useState<bible | null>(null);
