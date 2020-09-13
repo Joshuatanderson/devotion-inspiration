@@ -9,7 +9,7 @@ import DOMPurify from "dompurify";
 import { bibles } from "../types/bibles";
 import { bible } from "../types/bible";
 import { chapter } from "../types/chapter";
-import Chapter from "./Chapter";
+import Chapter from "./chapter/Chapter";
 
 // TODO: stop from displaying intro
 // TODO: allow user to change version

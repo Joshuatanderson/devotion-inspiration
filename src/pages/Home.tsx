@@ -11,7 +11,7 @@ import {
   IonButton,
 } from "@ionic/react";
 import React, { Fragment } from "react";
-import "./Home.css";
+import "./Home.scss";
 import BiblesController from "../components/BiblesController";
 
 const Home: React.FC = () => {
