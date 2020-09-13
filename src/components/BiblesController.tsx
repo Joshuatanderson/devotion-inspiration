@@ -76,7 +76,7 @@ const BiblesController = () => {
 
 	function pickRandomChapter(bible: bible) {
 		const randomBook =
-			bible.data[Math.floor(Math.random() * bible.data.length)];
+			bible.data[Math.floor(Math.random() * bible.data.length) + 1];
 		const randomChapter =
 			randomBook.chapters[
 				Math.floor(Math.random() * randomBook.chapters.length)
