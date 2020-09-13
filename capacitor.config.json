@@ -1,6 +1,6 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "devotionInspiration",
+  "appId": "ionic:devotionInspirationTest",
+  "appName": "Devotion Inspiration",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "build",
