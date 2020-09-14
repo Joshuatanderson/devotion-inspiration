@@ -1,8 +1,21 @@
-/* Verse number */
+@import "../../../node_modules/@ionic/core/css/core.css";
+@import "../../../node_modules/@ionic/core/css/typography.css";
+
 .scripture-styles {
-	font-family: --ionic-font;
-	.v {
+	@media (prefers-color-scheme: dark) {
 		color: #ddd;
+
+		.v {
+			color: #ddd;
+		}
 	}
-	color: #ddd;
+
+	@media(prefers-color-scheme: light) {
+		color: #333;
+
+		.v {
+			color: #333;
+		}
+	}
+
 }
